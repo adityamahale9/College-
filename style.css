@@ -1,0 +1,107 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#home img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5%;
+  border: 3px solid #ff4500;
+}
+header {
+  background-color: Blue;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  color: whitesmoke;
+  padding: 50px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: black;
+}
+
+h2 {
+  color: #ff4500;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.card {
+  background-color:white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: black;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ff4500;
+  
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.gallery-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid #ff4500;
+  
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+.hero video{
+  height: 200px;
+  width: 200px;
+  color: white;
+}
+
+.he video{
+  height:100%;
+  width: 100%;
+}
